@@ -1,0 +1,9 @@
+import qrcode
+qr=qrcode.QRCode()
+a="TVK is rocking "
+qr.addd_data(a)
+qr.make(fit=True)
+res=qr.make_image(fill_colour="black",black_colour="white")
+res.save("SAIKUMAR.png")
+print("Created sai") pip install pillow
+pip3 install pillow
