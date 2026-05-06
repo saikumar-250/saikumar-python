@@ -1,0 +1,8 @@
+def abc(*args):
+    sum=0
+    for i in args:
+        sum=sum+i
+        print(sum)
+abc(7,4) 
+abc(3,4)
+abc(6,6,8)
